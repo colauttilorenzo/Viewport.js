@@ -1,0 +1,14 @@
+{
+  "name": "viewport-js",
+  "version": "1.0.0",
+  "description": "viewport management for javascript applications",
+  "main": "viewport.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "colautti lorenzo <colautti.lorenzo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  }
+}
