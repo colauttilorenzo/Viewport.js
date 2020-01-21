@@ -1,14 +1,13 @@
 {
     "compilerOptions": {
         "experimentalDecorators": false,
-        "target": "es6",
-        "module": "commonjs",
-        "sourceMap": true,
         "outDir": "./dist",
+        "module": "UMD",
+        "target": "es5",
         "strict": true,
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "resolveJsonModule": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": false
     },
     "include": [
         "src/**/*"
