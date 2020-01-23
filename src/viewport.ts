@@ -255,5 +255,10 @@ export abstract class Viewport {
 
 }
 
-declare const window: any;
+declare global {
+    interface Window {
+        Viewport: Viewport;
+    }
+}
+
 window.Viewport = Viewport;
