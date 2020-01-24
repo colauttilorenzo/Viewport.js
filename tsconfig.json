@@ -2,12 +2,12 @@
     "compilerOptions": {
         "experimentalDecorators": false,
         "outDir": "./dist",
-        "module": "UMD",
+        "module": "commonjs",
         "target": "es5",
         "strict": true,
         "noImplicitAny": true,
         "removeComments": true,
-        "sourceMap": false
+        "sourceMap": true
     },
     "include": [
         "src/**/*"
